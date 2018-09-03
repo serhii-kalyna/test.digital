@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf"); }
+
+h1 {
+  font: bold 1.7em Montserrat-Regular, sans-serif;
+  color: #000; }
+
+h2 {
+  font: 1.5em Montserrat-Regular, sans-serif;
+  color: #fffefe; }
+
+h3 {
+  font: 0.875em Montserrat-Light, sans-serif;
+  color: #fffefe;
+  line-height: 25px; }
+
+h4 {
+  font: 0.75em Montserrat-Light, sans-serif;
+  color: #fffefe; }
+
+p.caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  font: bold 0.9em Montserrat-Regular, sans-serif;
+  color: #000; }
+
+p.description {
+  font: 0.9em Montserrat-Light, sans-serif;
+  color: #000;
+  line-height: 1.5em; }
+
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto; }
+  #container header {
+    position: relative;
+    padding-top: 1.875em;
+    height: 3.676em;
+    width: 100%; }
+    #container header h1 {
+      text-align: center; }
+  #container main {
+    position: relative;
+    width: 100%;
+    height: auto; }
+    #container main #block-project {
+      margin-bottom: 0.9em;
+      height: auto;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-flex-flow: wrap;
+          -ms-flex-flow: wrap;
+              flex-flow: wrap; }
+      #container main #block-project .box4 {
+        margin-top: 0.9em;
+        position: relative;
+        height: auto;
+        width: 24.3%;
+        overflow: hidden; }
+        #container main #block-project .box4 img {
+          position: relative;
+          width: 100%;
+          height: auto; }
+        #container main #block-project .box4 .block-hover {
+          display: block;
+          position: absolute;
+          height: 23.44em;
+          line-height: 0;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.6); }
+          #container main #block-project .box4 .block-hover .text-wrap {
+            position: absolute;
+            height: 6.25em;
+            width: 71.4%;
+            margin-left: 37px;
+            bottom: 40px; }
+        #container main #block-project .box4:hover .block-hover {
+          margin-top: -23.8em;
+          -webkit-transform: rotateY(360deg);
+                  transform: rotateY(360deg);
+          -webkit-transition: 0.7s;
+          -o-transition: 0.7s;
+          transition: 0.7s; }
+      #container main #block-project .more-info {
+        display: none;
+        margin-top: 0.9em;
+        position: absolute;
+        margin-left: 24.3%;
+        width: 75.7%;
+        height: 100%;
+        background: #fff; }
+        #container main #block-project .more-info .content {
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px; }
+  #container footer {
+    min-height: 17em;
+    height: auto;
+    width: 100%;
+    background: #000000;
+    padding-top: 2em; }
+    #container footer .block1 {
+      width: 100%;
+      height: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: wrap;
+          -ms-flex-flow: wrap;
+              flex-flow: wrap;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+      #container footer .block1 .box3 {
+        width: 20%; }
+      #container footer .block1 .footer-menu ul li a:hover {
+        cursor: pointer;
+        color: white;
+        text-decoration: underline; }
+    #container footer .block2 {
+      margin-top: 3em;
+      width: 100%;
+      height: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: wrap;
+          -ms-flex-flow: wrap;
+              flex-flow: wrap;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+      #container footer .block2 .box3 {
+        width: 20%; }
+        #container footer .block2 .box3 ul li {
+          float: left;
+          margin-left: 10px;
+          margin-right: 10px; }
+          #container footer .block2 .box3 ul li svg#inst {
+            width: 20px;
+            height: 20px; }
+          #container footer .block2 .box3 ul li svg#fb {
+            width: 8px;
+            height: 14px; }
+          #container footer .block2 .box3 ul li svg#yt {
+            width: 21px;
+            height: 16px; }
+          #container footer .block2 .box3 ul li svg {
+            fill: #fff; }
+            #container footer .block2 .box3 ul li svg:hover {
+              fill: #ff9494; }
+      #container footer .block2 .creator h4 {
+        float: left;
+        padding-right: 4px; }
+      #container footer .block2 .creator a h4:hover {
+        color: #ff9494;
+        text-decoration: underline; }
+
+.svg-container {
+  display: none; }
+
+@media screen and (max-width: 1024px), only screen and (max-device-width: 1024px) {
+  p.caption {
+    font: bold 0.8em Montserrat-Regular, sans-serif; }
+  p.description {
+    font: 0.8em Montserrat-Light, sans-serif;
+    line-height: 1.3em !important; }
+  #container main #block-project .box4 .block-hover {
+    height: 23.44em; }
+  #container main #block-project .box4:hover .block-hover {
+    margin-top: -23.7em; }
+  #container main #block-project .more-info .content {
+    padding-top: 5px !important; } }
+
+@media screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+  #container main #block-project .box4 {
+    width: 49%; }
+    #container main #block-project .box4 .block-hover {
+      height: 24.67em; }
+    #container main #block-project .box4:hover .block-hover {
+      margin-top: -25em; }
+  #container main #block-project .more-info {
+    margin-left: 49%;
+    width: 51%; }
+  #container footer .block1 .box3 {
+    width: 32%; } }
+
+@media screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  #container main #block-project .box4 {
+    width: 49%; }
+    #container main #block-project .box4 .block-hover {
+      height: 24.67em; }
+    #container main #block-project .box4:hover .block-hover .text-wrap {
+      height: 10em; }
+  #container footer .block1 .box3 {
+    width: 45%;
+    margin-bottom: 2em; }
+  #container footer .block1 .logo {
+    text-align: center;
+    width: 60%;
+    -webkit-box-ordinal-group: -1;
+    -webkit-order: -2;
+        -ms-flex-order: -2;
+            order: -2; }
+  #container footer .block2 {
+    margin-top: 1em; }
+    #container footer .block2 .box3 {
+      width: 30%;
+      margin-bottom: 2em; } }
+
+@media screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  p.caption {
+    font: bold 0.9em Montserrat-Regular, sans-serif; }
+  p.description {
+    font: 0.9em Montserrat-Light, sans-serif;
+    line-height: 1.6em !important; }
+  #container main #block-project .box4 {
+    width: 100%; }
+    #container main #block-project .box4 .block-hover {
+      height: 34.8em; }
+    #container main #block-project .box4:hover .block-hover {
+      margin-top: -35em; }
+      #container main #block-project .box4:hover .block-hover .text-wrap {
+        height: 10em; }
+  #container main #block-project .more-info {
+    margin-top: 32.5em;
+    position: absolute;
+    margin-left: 0;
+    width: 100%;
+    height: 75%; }
+  #container footer .block1 .box3 {
+    width: 80%;
+    margin-bottom: 1em; }
+  #container footer .block1 .logo {
+    text-align: center;
+    -webkit-box-ordinal-group: -1;
+    -webkit-order: -2;
+        -ms-flex-order: -2;
+            order: -2; }
+  #container footer .block2 .box3 {
+    text-align: center;
+    width: auto;
+    margin-bottom: 1em; } }
+
+@media screen and (max-width: 460px), only screen and (max-device-width: 460px) {
+  #container main #block-project .more-info {
+    margin-top: 28.5em;
+    height: 76%; } }
+
+@media screen and (max-width: 430px), only screen and (max-device-width: 430px) {
+  #container main #block-project .more-info {
+    height: 75%;
+    margin-top: 27em; } }
+
+@media screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  #container main #block-project .box4 {
+    width: 100%; }
+    #container main #block-project .box4 .block-hover {
+      height: 24.67em; }
+    #container main #block-project .box4:hover .block-hover .text-wrap {
+      height: 10em; }
+  #container main #block-project .more-info {
+    margin-top: 22.5em;
+    position: absolute;
+    margin-left: 0;
+    width: 100%;
+    height: 77%; } }
+
+@media screen and (max-width: 340px), only screen and (max-device-width: 340px) {
+  #container main #block-project .more-info {
+    margin-top: 21.5em; } }
