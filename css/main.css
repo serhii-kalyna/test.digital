@@ -113,6 +113,8 @@ p.description {
         margin-left: 24.3%;
         width: 75.7%;
         height: 100%;
+        left: 100%;
+        z-index: 100;
         background: #fff; }
         #container main #block-project .more-info .content {
           padding-top: 20px;
