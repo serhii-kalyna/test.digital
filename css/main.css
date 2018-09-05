@@ -288,7 +288,9 @@ p.description {
   #container main #block-project .box4 {
     width: 100%; }
     #container main #block-project .box4 .block-hover {
-      height: 24.67em; }
+      height: 23.44em; }
+    #container main #block-project .box4:hover .block-hover{
+      margin-top: -23.8em;}
     #container main #block-project .box4:hover .block-hover .text-wrap {
       height: 10em; }
   #container main #block-project .more-info {
